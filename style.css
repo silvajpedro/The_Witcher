@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("./Assets/the\ witcher\ hell.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+header{
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    height: 17vh;
+    color: #ffffff;
+}
+header div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 30vw;
+}
+header img{
+    width: 3.9vw;
+}
+h2{
+   font-weight: 400; 
+   text-transform: uppercase;
+   font-size: 18px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    width: 44vw;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 17vh;
+}
+li:hover{
+    font-weight:500;
+    cursor: pointer;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 32vw;
+    height: 95vh;
+    background-image: url("./Assets/the\ witcher\ kavil2.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+section figure{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: flex-end; 
+   height: 45vh;
+}
+.logo{
+width: 20vw;
+}
+.botao{
+width: 16vw;
+margin-top: 25px;
+}
+.botao:hover{
+    cursor: pointer;
+    transform: scale(108%);
+}
